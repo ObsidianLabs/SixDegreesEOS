@@ -1,0 +1,16 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "randombytes": "./randombytes",
+          "crypto": "crypto-browserify",
+          "stream": "stream-browserify",
+          "vm": "vm-browserify"
+        }
+      }
+    ]
+  ]
+}
